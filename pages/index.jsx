@@ -1,13 +1,9 @@
+import Header from './components/header'
 
 export default function Home() {
   return (
     <>
-      <header>
-        <div>SAMIZUCHELIN2023</div>
-        <div>HOW TO</div>
-        <div>SAMIZUCHELIN</div>
-        <div>SAMIZU OF THE YEAR</div>
-      </header>
+      <Header />
       <contents>
         <div>
           ここにコンテンツが入ります。

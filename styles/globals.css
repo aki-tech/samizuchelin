@@ -14,3 +14,39 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.boxes {
+  /* max-width: 400px; */
+  /* margin: 20px auto 0px; */
+  /* background-color: #ccc; */
+}
+
+.left-box {
+  float: left;
+}
+
+.right-box {
+  float: right;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  /* float: left; */
+}
+
+.red {
+  background-color: #FF0D1F;
+}
+
+.blue {
+  background-color: #0026FF;
+}
+
+.green {
+  background-color: #0CFF3C;
+}
+
+.pink {
+background-color: pink;
+}
