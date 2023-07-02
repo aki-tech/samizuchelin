@@ -1,13 +1,11 @@
-version: '3'
+version: "3.8"
+
 services:
   app:
     build:
       context: .
-    tty: true
-    volumes:
-      - .:/app
+      dockerfile: Dockerfile
     ports:
-      - "3000:3000"
+      - "3001:3001"
     environment:
       - WATCHPACK_POLLING=true
-    command: sh -c "npm run dev"

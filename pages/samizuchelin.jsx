@@ -4,12 +4,12 @@ import Header from './components/header'
 export default function Home() {
   return (
     <>
-      <Header />
-      <contents>
+      <div className="bg-col">
+        <Header />
         <div>
-          ここにコンテンツが入ります。
+          過去のSAMIZUCHELINを書くページです
         </div>
-      </contents>
+      </div>
     </>
   )
 }
